@@ -10,6 +10,6 @@ public class coverage {
      * - this refers to the current object.
      * - Scope can be instance, static, local, or block level.
      * - Objects become eligible for garbage collection when no reachable references remain.
-     * - //may idadag dag pa hoooo
+     * - //may idadagdag pa hoooo
      */
 }
