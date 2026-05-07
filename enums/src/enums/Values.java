@@ -1,0 +1,25 @@
+package enums;
+
+enum Season {
+    SPRING,
+    SUMMER,
+    FALL,
+    WINTER
+//damning arte sa buhay
+}
+
+public class Values {
+
+    public static void main(String[] args) {
+
+        // values() returns array of all enum ng constants
+        for (Season s : Season.values()) {
+
+            // ordinal() = position ng enum
+            System.out.println(
+                    s + " : ordinal = " + s.ordinal());
+        }
+
+        // Noted by loml<3 : ordinal starts at 0
+    }
+}
