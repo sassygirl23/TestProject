@@ -6,7 +6,7 @@ record Product(String name, double price) {
     // Compact constructor
     Product {
 
-        // Hindi kailangan ulitin fields automatic assignment na
+        // Hindi kailangan ulitin fields, automatic assignment na
 
         if (price < 0) {
             throw new IllegalArgumentException(
