@@ -1,21 +1,20 @@
-package loop;
+package loops;
 
-public class DoWhile {
+public class While {
 
     public static void main(String[] args) {
 
         int x = 1;
 
-        do {
+        while (x <= 5) {
 
             System.out.println(x);
 
             x++;
-
-        } while (x <= 5);
+        }
 
         
-         // DO-WHILE execute muna bago check condition
+         //WHILE LOOP check muna condition bago siya execute
          
     }
 }
