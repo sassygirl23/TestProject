@@ -9,6 +9,7 @@ class Parent {
 }
 
 class Child extends Parent {
+	
 
     Child() {
         // Bago ito mag-run, automatic munang tatawagin ang super()
@@ -21,7 +22,6 @@ public class Constructor {
 	public static void main(String[] args) {
 		
 		 // Kapag gumawa ng Child object, tatawagin muna ang Parent constructor
-        Child child = new Child();
 
 	}
 
