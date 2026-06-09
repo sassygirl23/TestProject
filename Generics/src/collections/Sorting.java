@@ -15,7 +15,7 @@ public class Sorting {
         names.add("Berto");
 
         // sort alphabetically
-        Collections.sort(names);
+               Collections.sort(names);
 
         System.out.println(names);
     }
