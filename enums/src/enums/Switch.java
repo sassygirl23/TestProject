@@ -1,4 +1,4 @@
-package enums;
+  package enums;
 
 enum TrafficLight {
     RED,
