@@ -22,6 +22,6 @@ public class Compact {
         Product p =
                 new Product("Laptop", 55000);
 
-        System.out.println(p);
+        System.out.println(p);                                                        
     }
 }
