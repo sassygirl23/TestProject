@@ -12,7 +12,7 @@ public class Runtime2 {
 
         try {
             checkNumber(25);
-        } catch (RuntimeException e) {
+        } catch (  RuntimeException e) {
             System.out.println("Caught: " + e.getMessage());
         }
                
