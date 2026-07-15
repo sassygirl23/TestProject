@@ -7,7 +7,7 @@ public class Runtime2 {
             throw new RuntimeException("Number cannot be positive.");
         }
     }
-
+  
     public static void main(String[] args) {
 
         try {
@@ -15,5 +15,6 @@ public class Runtime2 {
         } catch (RuntimeException e) {
             System.out.println("Caught: " + e.getMessage());
         }
+               
     }
 }
