@@ -9,7 +9,7 @@ public class Nested {
     // Inner class
     class InnerClass {
 
-        void display() {
+    	void display() {
 
             // Kayang i-access ng inner class ang private members ng outer class
             System.out.println(message);
